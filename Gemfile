@@ -13,6 +13,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem "paperclip", "~> 4.1"
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
+
 
 group :production do
   gem 'pg'
